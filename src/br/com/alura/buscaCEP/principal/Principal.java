@@ -7,7 +7,7 @@ import br.com.alura.buscaCEP.service.GeradorDeArquivo;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Main {
+public class Principal {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
         BuscaCep buscaCep = new BuscaCep();
